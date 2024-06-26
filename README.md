@@ -49,9 +49,11 @@ Before you begin, ensure you have the following installed:
 ## Customization
 
 - Update the components in the `components/` directory to match your design requirements
+   - Update the navigation links in `components/links.tsx`
+   - Update logo in `components/logo.tsx`
 - Modify or add new routes in the `app/` directory
-- Adjust the global styles in `styles/globals.css`
-- Update the `tailwind.config.js` file to customize your Tailwind CSS setup
+- Adjust the global styles in `app/globals.css`
+- Update the `tailwind.config.ts` file to customize your Tailwind CSS setup
 
 ## Deployment
 
