@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SideBar Template
+
+This project is a template for creating a dashboard user interface using `Next.js (with App Router)`, `TypeScript`, and `shadcn/ui`.
+
+## Features
+
+- Modern and responsive dashboard layout
+- Built with Next.js 14+ using the App Router for improved routing and layouts
+- TypeScript for type safety and improved developer experience
+- Utilizes shadcn/ui for beautiful and customizable UI components
+- Easy to extend and customize for your specific needs
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- Node.js (version 16.8 or later)
+- npm or yarn
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```
+   git clone https://github.com/woongsnote/next-sidebar.git
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the project directory:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```
+   cd next-sidebar
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Install dependencies:
 
-## Learn More
+   ```bash
+   npm install
 
-To learn more about Next.js, take a look at the following resources:
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Run the development server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Customization
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Update the components in the `components/` directory to match your design requirements
+- Modify or add new routes in the `app/` directory
+- Adjust the global styles in `styles/globals.css`
+- Update the `tailwind.config.js` file to customize your Tailwind CSS setup
+
+## Deployment
+
+This template can be easily deployed to platforms like Vercel or Netlify. Follow their respective documentation for deploying Next.js applications with App Router.
+
+You can see the demo site in [here](https://next-sidebar-delta.vercel.app/)
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
